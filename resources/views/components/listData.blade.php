@@ -1,14 +1,13 @@
 @section('file-data')
-    <section class="container-fluid">
+    <section id="list-data" class="container-fluid">
         @foreach($datas as $data)
             <article>
                 <div>
-                    <h1>{{ $data['title'] }}</h1>
-                    <h3>{{ $data['subTitle'] }}</h3>
+                    <h2>{{ $data['title'] }}</h2>
                 </div>
                 <span>
-                    <img src="{{ Vite::asset("$data[url]") }}" alt="{{ $data['title'] }}">
-                    <p>{{ $data['autors'] }}</p>
+                    <pre>{{ $data['autors'] }}</pre>
+                    <img src="{{ Vite::asset("$data[url]") }}" alt="logo">
                 </span>
                 <div>
                     <h4>{{ $data['ruole'] }}</h4>
