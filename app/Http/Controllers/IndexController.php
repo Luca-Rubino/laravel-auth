@@ -15,24 +15,21 @@ class IndexController extends Controller
 
         $datas = [
             [
-                'title' => '0',
-                'subTitle' => 'Welcome in home',
+                'title' => 'Welcome in home',
                 'autors' => 'luca rubino',
                 'ruole' => 'web developer',
                 'url' => 'resources/img/boolean.ico',
                 'description' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam dicta consequatur? Soluta molestias quod, cum corrupti, itaque adipisci quam veniam, blanditiis nisi doloribus labore vero! Voluptates repellat inventore mollitia?',
             ],
             [
-                'title' => '1',
-                'subTitle' => 'Welcime iv fhome',
+                'title' => 'Welcime iv fhome',
                 'autors' => 'Rupa lubivo',
                 'ruole' => 'web developer',
                 'url' => 'resources/img/boolean.ico',
                 'description' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam dicta consequatur? Soluta molestias quod, cum corrupti, itaque adipisci quam veniam, blanditiis nisi doloribus labore vero! Voluptates repellat inventore mollitia? Nobis distinctio excepturi non id assumenda aliquid delectus laboriosam doloribus recusandae molestias, praesentium dolorem quas quia omnis quae, eum facilis amet! Facilis doloribus numquam sunt et at quidem voluptatibus debitis!',
             ],
             [
-                'title' => '2',
-                'subTitle' => 'Walcina in Ghome',
+                'title' => 'Walcina in Ghome',
                 'autors' => 'luma ruvino',
                 'ruole' => 'web developer',
                 'url' => 'resources/img/boolean.ico',
