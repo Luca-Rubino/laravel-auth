@@ -11,6 +11,11 @@
 </head>
 <body>
     @yield('navbar')
+    <header>
+        <h1>
+            {{ $titlePage }}
+        </h1>
+    </header>
     <main>
         @yield('file-data')
     </main>
