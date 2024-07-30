@@ -3,6 +3,15 @@ body {
     color: lightgreen;
 }
 
+header {
+    padding: 6.5rem 0 0 0;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 main {
-    padding-top: 7rem;
+    padding: 0 0 6rem 0;
 }

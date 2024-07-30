@@ -1,0 +1,25 @@
+#list-data {
+    span {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        
+        article {
+            div {
+                span {
+                    height: 2rem;
+                }
+            }
+        }
+
+        img {
+            width: 25px;
+            border-radius: 40px;
+        }
+
+        pre {
+            padding: 0rem .5rem;
+            margin: 0;
+        }
+    }
+}
