@@ -11,6 +11,7 @@ Iniziamo con il definire il layout, modello, migrazione, controller e rotte nece
 Implementiamo le funzionalita' di index(), show(), create(), store() per il modello Project.
 
 Bonus
+
 Implementiamo la validazione dei dati dei Progetti nelle operazioni CRUD che lo richiedono usando una form request.
 
 Ripercorriamo gli steps fatti a lezione ed implementiamo per la risorsa project
