@@ -3,10 +3,20 @@
     ul {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         list-style: none;
 
         li {
-            padding-right: 1rem;
+            padding-right: 20rem;
+
+            img {
+                width: 80px;
+            }
+
+            a {
+                text-decoration: none;
+                color: lightgreen;
+            }
         }
     }
 }
