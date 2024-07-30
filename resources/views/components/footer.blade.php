@@ -1,34 +1,76 @@
 @section('footer')
-    <section class="container-fluid">
+    <section id="footer" class="container-fluid">
         <ul>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
+            <li>
+                <h2>titolo</h2>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
         </ul>
 
         <ul>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
+            <li>
+                <h2>titolo</h2>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
         </ul>
 
         <ul>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-            <li>1rei</li>
-        </ul> 
+            <li>
+                <h2>titolo</h2>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+            <li>
+                <a href="/">item</a>
+            </li>
+        </ul>
     </section>
     
 @endsection
