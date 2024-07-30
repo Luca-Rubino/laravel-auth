@@ -11,7 +11,9 @@
 </head>
 <body>
     @yield('navbar')
-    @yield('file-data')
+    <main>
+        @yield('file-data')
+    </main>
     @yield('footer')
 </body>
 </html>
