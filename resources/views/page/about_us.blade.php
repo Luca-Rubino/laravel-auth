@@ -11,9 +11,7 @@
 <body>
     @yield('navbar')
     <main>
-        <div>
-            <p>Main</p>
-        </div>
+        <p>Contenuto</p>
     </main>
     @yield('footer')
 </body>
