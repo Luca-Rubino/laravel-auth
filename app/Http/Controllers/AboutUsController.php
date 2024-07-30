@@ -9,9 +9,9 @@ class AboutUsController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function about_us()
+    public function chiSiamo()
     {
-        $titlePage = 'About Us';
+        $titlePage = 'Chi Siamo';
     
         return view('page.about_us', compact('titlePage'));
     }

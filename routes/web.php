@@ -15,4 +15,4 @@ use App\Http\Controllers\AboutUsController;
 */
 
 Route::get('/',[IndexController::class,'index'])->name('Home');
-Route::get('/chi_siamo',[AboutUsController::class,'about_us'])->name('About_us');
+Route::get('/chi_siamo',[AboutUsController::class,'chiSiamo'])->name('Chi_Siamo');
