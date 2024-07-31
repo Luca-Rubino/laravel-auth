@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use Illuminate\Http\Request;
 
 class ExerciceController extends Controller
@@ -12,8 +13,9 @@ class ExerciceController extends Controller
     public function index()
     {
         $titlePage = 'Exercise';
+        $projects = Project::all();
     
-        return view('page.exercise', compact('titlePage'));
+        return view('page.exercise', compact('titlePage', 'projects'));
     }
 
     /**
