@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Project;
+use Database\Seeders\ProjectSeeder;
 use Illuminate\Http\Request;
 
 class ExerciceController extends Controller
