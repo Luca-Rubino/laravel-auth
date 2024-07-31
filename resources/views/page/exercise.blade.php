@@ -37,6 +37,9 @@
                     <td>{{ $project->title }}</td>
                     <td>{{ $project->prog_langs }}</td>
                     <td>{{ $project->url }}</td>
+                    <td>
+                        <a href="{{Route('admin.projects.show', $project)}}" class="btn btn-light btn-sm">Show</a>
+                    </td>
                 </tr>
             </tbody>
             @endforeach
