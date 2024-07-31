@@ -12,6 +12,8 @@ class ProjectController extends Controller
     public function index()
     {
         //
+        $projects = [];
+        return view('page.exercise', compact('projects'));
     }
 
     /**
