@@ -12,7 +12,7 @@
 <body>
     @yield('navbar')
     <header>
-        <h1>
+        <h1 class="text-primary fs-1">
             {{ $titlePage }}
         </h1>
     </header>
