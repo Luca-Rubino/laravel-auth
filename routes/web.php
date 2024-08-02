@@ -6,6 +6,7 @@ use App\Http\Controllers\ChiSiamoController;
 use App\Http\Controllers\ExerciceController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContattiController;
+use App\Http\Controllers\Admin\ProjectController as AdminProjectController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +19,14 @@ use App\Http\Controllers\ContattiController;
 */
 
 Route::get('/',[IndexController::class,'index'])->name('Home');
+
 Route::get('/Chi_siamo',[ChiSiamoController::class,'index'])->name('Chi_Siamo');
 Route::get('/Exercise',[ExerciceController::class,'index'])->name('Exercise');
 Route::get('/Blog',[BlogController::class,'index'])->name('Blog');
 Route::get('/Contatti',[ContattiController::class,'index'])->name('Contatti');
+
+Route::middleware('auth')->name('admin.')->prefix('admin/')->group(function(){
+
+    Route::resource("/projects", AdminProjectController::class);
+}
+);
