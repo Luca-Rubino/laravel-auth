@@ -11,7 +11,6 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $titlePage = 'Home';
 
         $datas = [
             [
@@ -37,7 +36,7 @@ class IndexController extends Controller
             ],
         ];
         
-        return view('index', compact('titlePage', 'datas'));
+        return view('index', ['titlePage' => 'Home'], compact('datas'));
     }
 
     /**
